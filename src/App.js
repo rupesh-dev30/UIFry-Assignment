@@ -9,6 +9,7 @@ import Testimonial from "./components/Testimonial";
 import ContainerCollection from "./components/ContainerCollection";
 import Download from "./components/Download";
 import Footer from "./components/Footer";
+import Star from "./components/Star";
 
 export default function App() {
   return (
@@ -34,6 +35,7 @@ export default function App() {
       <ContainerCollection />
       <Download />
       <Footer />
+      <Star />
     </>
   );
 }

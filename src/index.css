@@ -104,7 +104,7 @@ html {
 
 .home_container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .home_phone {
@@ -349,3 +349,122 @@ html {
   margin-top: 10px;
   margin-bottom: 25px;
 }
+
+.gradient1{
+  position: absolute;
+  z-index: -100;
+  left: 136px;
+}
+
+.gradient2{
+  position: absolute;
+  z-index: -100;
+  right: -37px;
+  top: 268px;
+}
+
+.gradient3{
+  position: absolute;
+  z-index: -100;
+  left: 290px;
+  top: 1150px;
+}
+
+.gradient4{
+  position: absolute;
+  z-index: -100;
+  right: 30px;
+  top: 1150px;
+}
+
+.gradient5{
+  position: absolute;
+  z-index: -100;
+  right: 550px;
+  top: 2080px;
+}
+
+.gradient6{
+  position: absolute;
+  z-index: -100;
+  left: 300px;
+  top: 2850px;
+}
+
+.gradient7{
+  position: absolute;
+  z-index: -100;
+  left: 300px;
+  top: 3900px;
+}
+
+.gradient8{
+  position: absolute;
+  z-index: -100;
+  left: -250px;
+  bottom: 150px;
+}
+
+.star{
+  position: absolute;
+  z-index: -99;
+  bottom: -99px;
+  left: 147px;
+} 
+
+.star2{
+  position: absolute;
+  z-index: -99;
+  top: 99px;
+  left: 107px;
+} 
+
+.star3{
+  position: absolute;
+  z-index: -99;
+  top: 70px;
+  right: 80px;
+} 
+
+.star4{
+  position: absolute;
+  z-index: -99;
+  top: 600px;
+  right: 200px;
+} 
+
+.star5{
+  position: absolute;
+  z-index: -99;
+  top: 1000px;
+  right: 600px;
+}
+
+.star6{
+  position: absolute;
+  z-index: -99;
+  top: 1800px;
+  right: 300px;
+}
+
+.star7{
+  position: absolute;
+  z-index: -99;
+  top: 2200px;
+  left: 250px;
+}
+
+.star8{
+  position: absolute;
+  z-index: -99;
+  bottom: -2000px;
+  left: 250px;
+}
+
+.star9{
+  position: absolute;
+  z-index: -99;
+  bottom: -2800px;
+  right: 240px;
+}
+

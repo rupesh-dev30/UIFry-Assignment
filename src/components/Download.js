@@ -1,6 +1,11 @@
+import gradient from "../assets/gradient.png"
+
 export default function Download() {
   return (
     <div className="adContainer">
+      <div className="gradient8">
+        <img src={gradient} alt="gradient" />
+      </div>
       <div className="adContent">
         <h1>Ready to get started?</h1>
         <p>

@@ -1,12 +1,16 @@
 import Paragraph from "./Paragraph";
 import phone3 from "../assets/phone3.png";
 import Photo from "./Photo";
+import gradient from "../assets/gradient.png";
 
 export default function Testimonial() {
   return (
     <>
       <div className="testimonial">
         <img className="features_img" src={phone3} alt="phone" />
+        <div className="gradient7">
+          <img src={gradient} alt="gradient" />
+        </div>
 
         <div className="testimonial_content">
           <Paragraph

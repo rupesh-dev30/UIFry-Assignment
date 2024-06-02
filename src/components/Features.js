@@ -1,9 +1,16 @@
 import Paragraph from "./Paragraph";
 import phone1 from "../assets/phone1.png";
+import gradient from "../assets/gradient.png"
 
 export default function Features() {
   return (
     <div className="features">
+      <div className="gradient3">
+        <img src={gradient} alt="gradient" />
+      </div>
+      <div className="gradient4">
+        <img src={gradient} alt="gradient" />
+      </div>
       <img className="features_img" src={phone1} alt="" />
       <div className="features_data">
         <p>FEATURES</p>

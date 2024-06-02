@@ -1,9 +1,13 @@
 import Paragraph from "./Paragraph";
 import phone2 from "../assets/phone2.png";
+import gradient from "../assets/gradient.png"
 
 export default function Advantages() {
   return (
     <>
+      <div className="gradient5">
+        <img src={gradient} alt="gradient" />
+      </div>
       <div className="advantages">
         <div className="advantages_content">
           <p>ADVANTAGES</p>

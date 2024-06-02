@@ -2,10 +2,17 @@ import Button from "./Button";
 import WatchedButton from "./WatchedButton";
 import phone from "../assets/phone.png"
 import flag from "../assets/flag.png"
+import gradient from "../assets/gradient.png"
 
 export default function Main() {
   return (
     <main className="main">
+      <div className="gradient1">
+        <img src={gradient} alt="gradient" />
+      </div>
+      <div className="gradient2">
+      <img src={gradient} alt="gradient" />
+      </div>
       <section className="home section">
         <div className="home_container container grid">
           <div className="home_data">

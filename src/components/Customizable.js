@@ -1,9 +1,13 @@
 import Paragraph from "./Paragraph";
 import phone1 from "../assets/phone1.png"
+import gradient from "../assets/gradient.png"
 
 export default function Customizable() {
   return (
     <>
+      <div className="gradient6">
+        <img src={gradient} alt="gradient" />
+      </div>
       <div className="customizable">
         <img className="features_img" src={phone1} alt="phone" />
 
