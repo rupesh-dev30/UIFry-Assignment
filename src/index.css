@@ -273,5 +273,79 @@ html {
   font-size: 1rem;
 }
 
+.adContainer {
+  background-color: black;
+  background-image: url('./assets/download.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 60%;
+  margin: auto;
+  height: 400px;
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 120px;
+  padding-left: 20px;
+  border-radius: 10px;
+  margin-top: 150px;
+}
 
+.adContent {
+  margin-left: 45px;
+}
 
+.btn2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 30px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.footer{
+  max-width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+
+.footer h1{
+  margin-bottom: 20px;
+}
+
+.footer li{
+  margin-bottom: 15px;
+}
+
+.first .flex svg{
+  margin-bottom: 15px;
+}
+
+.flex{
+  display: flex;
+  gap: 10px;
+}
+
+.subscribe{
+  gap: 20px;
+}
+
+.footer-divider{
+  background-image: radial-gradient(circle, #696969, #fff);
+  width: 70%;
+  margin: auto;
+  margin-top: 70px;
+  height: 3px;
+}
+
+.footer-end{
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
